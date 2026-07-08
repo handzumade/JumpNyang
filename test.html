@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+</head>
+<body>
+        <!------------------------------------------ s: 스타일------------------------------------------->
+
+                <style>
+
+                body {
+                margin: 0;
+                padding: 0;
+                }
+
+
+                /* 전체 테이블 */
+
+                .se-table-content {
+                width: 100%;
+                border-collapse: collapse;
+                table-layout: fixed;
+                background-color: #ffffff;
+                }
+
+
+                /* 각각의 상품 영역 */
+
+                .se-cell {
+                width: 50%;
+                background-color: #ffffff;
+                border: 2px solid #ffffff;
+                vertical-align: top;
+                padding: 0;
+                box-sizing: border-box;
+                }
+
+
+                /* 기본 여백 제거 */
+
+                .se-module,
+                .se-module-text,
+                .se-text-paragraph {
+                margin: 0;
+                padding: 0;
+                }
+
+
+                /* 이미지 중앙 정렬 */
+
+                .se-text-paragraph-align-center {
+                text-align: center;
+                }
+
+
+                /* 이미지 영역 */
+
+                .se-inline-image {
+                display: inline-block;
+                max-width: 100%;
+                }
+
+
+                /* 실제 이미지 */
+
+                .se-inline-image-resource {
+                display: block;
+                width: 100%;
+                height: auto;
+                }
+
+
+                /* 상품 메인 이미지 */
+
+                .se-cell .se-inline-image[style*="width:750px"] {
+                width: 100% !important;
+                max-width: 100% !important;
+                }
+
+
+                /* GIF 이미지 */
+
+                .se-cell .se-inline-image[style*="width:288px"],
+                .se-cell .se-inline-image[style*="width:287px"],
+                .se-cell .se-inline-image[style*="width:286px"],
+                .se-cell .se-inline-image[style*="width:285px"],
+                .se-cell .se-inline-image[style*="width:284px"] {
+
+                width: 82% !important;
+                max-width: 82% !important;
+
+                margin: 28px auto 24px auto;
+                }
+
+
+                /* 링크 */
+
+                .se-cell a {
+                display: block;
+                text-decoration: none;
+                }
+
+
+                /* 이미지 아래 불필요한 공간 제거 */
+
+                .se-cell img {
+                display: block;
+                }
+
+                </style>
+
+                <!------------------------------------------ s: 테이블 ------------------------------------------->
+
+                <div class="se-component se-table se-l-default __se-component">
+                <div class="se-component-content">
+                        <div class="se-section se-section-table se-l-default se-section-align-center">
+                        <div class="se-table-container">
+                                <table class="se-table-content">
+                                <tbody>
+                                        <!------------------------------------------ ROW 1 ------------------------------------------>
+                                        <tr class="se-tr">
+
+                                        <!------------------------------------------ 01 ------------------------------------------>
+                                        <td class="se-cell">
+
+                                                <!-- 01 메인 이미지 -->
+                                                <div class="se-module se-module-text">
+                                                <p class="se-text-paragraph se-text-paragraph-align-center">
+                                                      <span
+                                                        class="se-inline-image"
+                                                        style="width:750px; max-width:100%;"
+                                                        >
+                                                        <img
+                                                                class="se-inline-image-resource"
+                                                                src="https://raw.githubusercontent.com/handzumade/JumpNyang/refs/heads/main/product--typeA.jpg"
+                                                                alt=""
+                                                        >
+                                                        </span>
+                                                </p>
+                                                </div>
+
+                                                <!-- 01 GIF -->
+                                                <div class="se-module se-module-text">
+                                                <p class="se-text-paragraph se-text-paragraph-align-center">
+                                                        <span
+                                                        class="se-inline-image"
+                                                        style="width:288px; max-width:100%;"
+                                                        >
+                                                        <img
+                                                                class="se-inline-image-resource"
+                                                                src="https://shop-phinf.pstatic.net/20251204_162/1764821415505rwFn3_GIF/01._%EC%B4%88%ED%8C%8C%EB%A6%AC%ED%99%98%EC%9E%A5%EA%B9%83%ED%84%B8_161.gif?type=wg848"
+                                                                alt=""
+                                                        >
+                                                        </span>
+                                                </p>
+                                                </div>
+                                        </td>
+
+
+                                        <!------------------------------------------ 02 ------------------------------------------>
+                                        <td class="se-cell">
+
+                                                <!-- 02 메인 이미지 -->
+                                                <div class="se-module se-module-text">
+                                                <p class="se-text-paragraph se-text-paragraph-align-center">
+                                                        <span
+                                                        class="se-inline-image"
+                                                        style="width:750px; max-width:100%;"
+                                                        >
+                                                        <img
+                                                                class="se-inline-image-resource"
+                                                                src="https://raw.githubusercontent.com/handzumade/JumpNyang/refs/heads/main/product--typeA.jpg"
+                                                                alt=""
+                                                        >
+                                                        </span>
+                                                </p>
+                                                </div>
+
+                                                <!-- 02 GIF -->
+                                                <div class="se-module se-module-text">
+                                                <p class="se-text-paragraph se-text-paragraph-align-center">
+                                                        <span
+                                                        class="se-inline-image"
+                                                        style="width:288px; max-width:100%;"
+                                                        >
+                                                        <img
+                                                                class="se-inline-image-resource"
+                                                                src="https://shop-phinf.pstatic.net/20251203_216/1764736289006NPhCb_GIF/02._%EB%8D%B0%EB%B9%8C%EC%8A%A4%EB%84%A4%EC%9D%B4%ED%81%AC_162.gif?type=wg848"
+                                                                alt=""
+                                                        >
+                                                        </span>
+                                                </p>
+                                                </div>
+                                        </td>
+                                        </tr>
+
+
+                                        <!------------------------------------------ ROW 2 ------------------------------------------>
+
+                                        <tr class="se-tr">
+
+                                        <!------------------------------------------ 03 ------------------------------------------>
+
+                                        <td class="se-cell">
+
+                                                <!-- 03 메인 이미지 -->
+                                                <div class="se-module se-module-text">
+                                                <p class="se-text-paragraph se-text-paragraph-align-center">
+                                                        <span
+                                                        class="se-inline-image"
+                                                        style="width:750px; max-width:100%;"
+                                                        >
+                                                        <img
+                                                                class="se-inline-image-resource"
+                                                                src="https://raw.githubusercontent.com/handzumade/JumpNyang/refs/heads/main/product--typeA.jpg"
+                                                                alt=""
+                                                        >
+                                                        </span>
+                                                </p>
+                                                </div>
+
+                                                <!-- 03 GIF -->
+                                                <div class="se-module se-module-text">
+                                                <p class="se-text-paragraph se-text-paragraph-align-center">
+                                                        <span
+                                                        class="se-inline-image"
+                                                        style="width:288px; max-width:100%;"
+                                                        >
+                                                        <img
+                                                                class="se-inline-image-resource"
+                                                                src="https://shop-phinf.pstatic.net/20251203_250/1764736206374Xy4GB_GIF/03._%EB%AF%B8%EB%8B%88%ED%8F%BC%ED%8F%BC_162.gif?type=wg848"
+                                                                alt=""
+                                                        >
+                                                        </span>
+                                                </p>
+                                                </div>
+                                        </td>
+
+                                        <!------------------------------------------- 04 ------------------------------------------>
+
+                                        <td class="se-cell">
+
+                                                <!-- 04 메인 이미지 -->
+
+                                                <div class="se-module se-module-text">
+                                                <p class="se-text-paragraph se-text-paragraph-align-center">
+                                                        <span
+                                                        class="se-inline-image"
+                                                        style="width:750px; max-width:100%;"
+                                                        >
+                                                        <img
+                                                                class="se-inline-image-resource"
+                                                                src="https://raw.githubusercontent.com/handzumade/JumpNyang/refs/heads/main/product--typeA.jpg"
+                                                                alt=""
+                                                        >
+                                                        </span>
+                                                </p>
+                                                </div>
+
+
+                                                <!-- 04 GIF -->
+                                                <div class="se-module se-module-text">
+                                                <p class="se-text-paragraph se-text-paragraph-align-center">
+                                                        <span
+                                                        class="se-inline-image"
+                                                        style="width:288px; max-width:100%;"
+                                                        >
+                                                        <img
+                                                                class="se-inline-image-resource"
+                                                                src="https://shop-phinf.pstatic.net/20251203_210/1764738708496HRBOO_GIF/04._%EB%AF%B8%EB%8B%88%EB%82%98%EB%B9%84_162.gif?type=wg848"
+                                                                alt=""
+                                                        >
+                                                        </span>
+                                                </p>
+                                                </div>
+                                        </td>
+                                        </tr>
+                                </tbody>
+                                </table>
+
+
+                        </div>
+
+                        </div>
+
+                </div>
+
+                </div>
+
+
+</body>
+
+</html>
+</body>
+</html>
